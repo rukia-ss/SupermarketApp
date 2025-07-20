@@ -20,6 +20,7 @@ const upload = multer({ storage: storage });
 const connection = mysql.createConnection({
     host: 'rtg5s8.h.filess.io',
     user: 'supermarketapp_suitmanymy',
+    port: 3307,
     password: 'b02d941c1b231bc166e95e9caef5a26c09725f38',
     database: 'supermarketapp_suitmanymy'
   });
